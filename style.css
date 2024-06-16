@@ -10,6 +10,11 @@ body {
     padding: 12px;
 }
 
+.cards {
+    margin: 0;
+    padding: 48px;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -29,4 +34,8 @@ body {
 a {
     text-decoration: none;
     color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
 }
